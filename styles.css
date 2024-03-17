@@ -18,6 +18,11 @@ body {
     border-radius: 10px;
 }
 
+.gallery::after {
+    content: "";
+    width: 300px;
+}
+
 .header {
     text-transform: uppercase;
     padding: 32px;
